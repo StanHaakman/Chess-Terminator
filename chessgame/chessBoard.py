@@ -6,3 +6,5 @@ class Board:
 
     def create_board(self):
         # TODO: create a 8x8 matrix with zeros
+        pass
+    
