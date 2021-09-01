@@ -6,5 +6,5 @@ chessboard.create_board()
 
 chessboard.add_pieces()
 
-print(chessboard.game_matrix)
+print(chessboard.game_matrix[6][0].color)
 

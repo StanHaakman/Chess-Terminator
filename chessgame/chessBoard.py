@@ -18,6 +18,8 @@ class Board:
     def add_pieces(self):
         pawn = Pawn(True)
 
-        self.game_matrix[0][0] = pawn
+        for x in range(0, 2):
+            for i in range(0, 8):
+                self.game_matrix[1 if x == 0 else 6][i] = Pawn(False if x == 0 else True)
 
         pass
