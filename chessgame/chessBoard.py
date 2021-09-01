@@ -11,11 +11,13 @@ class Board:
     def create_board(self):
         # TODO: create a 8x8 matrix with zeros
 
-        self.game_matrix = np.zeros([8, 8], int)
+        self.game_matrix = np.zeros([8, 8], object)
 
         pass
 
     def add_pieces(self):
         pawn = Pawn(True)
+
+        self.game_matrix[0][0] = pawn
 
         pass
