@@ -1,10 +1,3 @@
-from chessgame.chessBoard import Board
+from chessgame import ChessGame
 
-chessboard = Board()
-
-chessboard.create_board()
-
-chessboard.add_pieces()
-
-print(chessboard.game_matrix[6][0].color)
-
+ChessGame()

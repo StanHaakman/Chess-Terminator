@@ -1,3 +1,6 @@
+import string
+
+
 class Piece:
 
     def __init__(self, color: bool):
@@ -6,4 +9,5 @@ class Piece:
         """
         self.has_moved = False
         self.color = color
+        self.img = None
         pass
